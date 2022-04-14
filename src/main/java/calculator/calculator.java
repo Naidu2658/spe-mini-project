@@ -2,8 +2,12 @@ package calculator;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class calculator {
+
+    private static final Logger logger = LogManager.getLogger(calculator.class);
   public static void  main(String args[])
   {
      calculator c= new calculator();
@@ -75,6 +79,7 @@ public class calculator {
 
  public double square_root(int num)
  {
+     logger.info("square root :" + num);
      return Math.sqrt(num);
  }
   public int factorial(int num)
