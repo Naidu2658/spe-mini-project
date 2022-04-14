@@ -13,7 +13,7 @@ public class calculator {
      calculator c= new calculator();
 
       do{
-          System.out.println("enter 1 to find square root of a number");
+          System.out.println("enter 1 to fin square root of a number");
           System.out.println("enter 2 to find factorial of a number");
           System.out.println("enter 3 to find natural logarithm of a number");
           System.out.println("enter 4 to power of x to a");
