@@ -7,23 +7,24 @@ public class calculator {
   public static void  main(String args[])
   {
      calculator c= new calculator();
-      System.out.println("enter 1 to find square root of a number");
-      System.out.println("enter 2 to find factorial of a number");
-      System.out.println("enter 3 to find natural logarithm of a number");
-      System.out.println("enter 4 to power of x to a");
-      Scanner sc=new Scanner(System.in);
-      int choice;
-      int num1, num2=0;
-      try
-      {
-          choice=sc.nextInt();
-      }
-      catch (InputMismatchException e)
-      {
-          System.out.println(e);
-          return ;
-      }
+
       do{
+          System.out.println("enter 1 to find square root of a number");
+          System.out.println("enter 2 to find factorial of a number");
+          System.out.println("enter 3 to find natural logarithm of a number");
+          System.out.println("enter 4 to power of x to a");
+          Scanner sc=new Scanner(System.in);
+          int choice;
+          int num1, num2=0;
+          try
+          {
+              choice=sc.nextInt();
+          }
+          catch (InputMismatchException e)
+          {
+              System.out.println(e);
+              return ;
+          }
           if(choice==1 || choice==2 || choice==3)
           {
               System.out.println("enter a number");
