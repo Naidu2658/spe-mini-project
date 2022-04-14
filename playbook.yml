@@ -1,6 +1,6 @@
 ---
- - name: Pulling docker image of calculator
-   hosts: all
-   tasks:
-      - name: pull docker image
-        shell:docker pull naidu2658/calcdem:v1
+- name: Pull docker image of Calculator
+  hosts: all
+  tasks:
+    - name: pull docker image
+      shell: docker pull naidu2658/calcdem:v1
