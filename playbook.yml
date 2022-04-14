@@ -1,0 +1,6 @@
+---
+ - name: Pulling docker image of calculator
+   hosts: all
+   tasks:
+      - name: pull docker image
+        shell:docker pull
