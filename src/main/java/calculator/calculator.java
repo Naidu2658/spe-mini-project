@@ -16,11 +16,11 @@ public class calculator {
           System.out.println("enter 1 to find square root of a number");
           System.out.println("enter 2 to find factorial of a number");
           System.out.println("enter 3 to find natural logarithm of a number");
-          System.out.println("enter 4 to power of x to a");
+          System.out.println("enter 4 to find power of x to a");
           System.out.println("enter 5 to exit");
           Scanner sc=new Scanner(System.in);
           int choice;
-          int num1, num2=0;
+          int num1=0, num2=0;
           try
           {
               choice=sc.nextInt();
@@ -44,7 +44,7 @@ public class calculator {
                   return;
               }
           }
-          else {
+          else if (choice==4){
               try {
 
                   System.out.println("enter x");
@@ -70,9 +70,12 @@ public class calculator {
               case 4:
                   System.out.println("exponential is :" + c.exponential(num1, num2));
                   break;
+              case 5:
+                  System.out.println("exiting");
+                  return;
               default:
                   System.out.println("exited");
-                  break;
+                  return;
 
           }
       }while(true);
@@ -80,26 +83,37 @@ public class calculator {
 
  public double square_root(int num)
  {
-     logger.info("square root :" + num);
-     return Math.sqrt(num);
+     logger.info("selected square root and entered number is:" + num);
+     double result=Math.sqrt(num);
+     logger.info("square root is:" + result);
+     return result;
  }
   public int factorial(int num)
   {
+      logger.info("selected factorial  and entered number is:" + num);
       int i;
+
       int result=1;
       for(i=1;i<=num;i++)
       {
           result=result*i;
       }
+      logger.info("factorial is:" + result);
       return result;
   }
 
   public double natural_logarithm(int num)
   {
-      return Math.log(num);
+      logger.info("selected natural logarithm and entered number is:" + num);
+      double result= Math.log(num);
+      logger.info("result of natural logarith is:" + result);
+      return result;
   }
   public double exponential(int num1,int num2)
   {
-      return Math.pow(num1, num2);
+      logger.info("selected exponential and x is:" + num1 + " and b is :" + num2);
+      double result=Math.pow(num1,num2);
+      logger.info("result is:" + result);
+      return result;
   }
 }
