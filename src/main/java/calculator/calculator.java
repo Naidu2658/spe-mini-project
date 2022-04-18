@@ -84,7 +84,7 @@ public class calculator {
  public double square_root(int num)
  {
      double result=Math.sqrt(num);
-     logger.info("square root | input:"+num + " | output:"+result);
+     logger.info("square root - input:"+num + " - output:"+result);
      return result;
  }
   public int factorial(int num)
@@ -95,7 +95,7 @@ public class calculator {
       {
           result=result*i;
       }
-      logger.info("factorial | input:"+num + " | output:"+result);
+      logger.info("factorial - input:"+num + " - output:"+result);
       return result;
   }
 
@@ -103,14 +103,14 @@ public class calculator {
   {
       double result= Math.log(num);
 
-      logger.info("natural logarithm | input:"+num + " | output:"+result);
+      logger.info("natural logarithm - input:"+num + " - output:"+result);
       return result;
   }
   public double exponential(int num1,int num2)
   {
       double result=Math.pow(num1,num2);
 
-      logger.info("power | input:"+num1 + "^"+num2+" | output:"+result);
+      logger.info("power - input:"+num1 + "^"+num2+" - output:"+result);
       return result;
   }
 }

@@ -1,6 +1,9 @@
-2022-04-18 08:47:24.572 [main] INFO  calculator.calculator - factorial | input:4 | output:24
-2022-04-18 08:47:28.968 [main] INFO  calculator.calculator - square root | input:9 | output:3.0
-2022-04-18 08:47:35.907 [main] INFO  calculator.calculator - power | input:6^3 | output:216.0
-2022-04-18 08:47:39.821 [main] INFO  calculator.calculator - factorial | input:4 | output:24
-2022-04-18 08:47:46.239 [main] INFO  calculator.calculator - factorial | input:7 | output:5040
-2022-04-18 08:47:53.355 [main] INFO  calculator.calculator - natural logarithm | input:16 | output:2.772588722239781
+2022-04-18 09:14:47.430 [calculator.java] [INFO] calculator.calculator  square root | input:16 | output:4.0
+2022-04-18 09:14:51.626 [calculator.java] [INFO] calculator.calculator  square root | input:56 | output:7.483314773547883
+2022-04-18 09:14:57.633 [calculator.java] [INFO] calculator.calculator  square root | input:87 | output:9.327379053088816
+2022-04-18 09:15:14.982 [calculator.java] [INFO] calculator.calculator  factorial | input:5 | output:120
+2022-04-18 09:15:20.250 [calculator.java] [INFO] calculator.calculator  factorial | input:5 | output:120
+2022-04-18 09:15:23.334 [calculator.java] [INFO] calculator.calculator  factorial | input:7 | output:5040
+2022-04-18 09:15:26.615 [calculator.java] [INFO] calculator.calculator  factorial | input:9 | output:362880
+2022-04-18 09:15:31.915 [calculator.java] [INFO] calculator.calculator  natural logarithm | input:6543 | output:8.78615105486974
+2022-04-18 09:15:35.484 [calculator.java] [INFO] calculator.calculator  natural logarithm | input:65432 | output:11.08876671441481
