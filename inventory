@@ -1,2 +1,2 @@
 [ubuntu18]
-172.16.134.176 ansible_user=naidu
+172.16.134.103 ansible_user=naidu

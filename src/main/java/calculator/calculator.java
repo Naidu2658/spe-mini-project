@@ -84,7 +84,7 @@ public class calculator {
  public double square_root(int num)
  {
      double result=Math.sqrt(num);
-     logger.info("square root - input:"+num + " - output:"+result);
+     logger.info("action:"+ "square root"+ " - input:"+num + " - output:"+result);
      return result;
  }
   public int factorial(int num)
