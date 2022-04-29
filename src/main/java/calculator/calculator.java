@@ -110,7 +110,7 @@ public class calculator {
   {
       double result=Math.pow(num1,num2);
 
-      logger.info("power - input:"+num1 + "^"+num2+" - output:"+result);
+      logger.info("power -  input:"+num1 + "^"+num2+" - output:"+result);
       return result;
   }
 }
